@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <Button
+        android:id="@+id/select_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="3dp"
+        android:background="@drawable/btn_cp"
+        android:gravity="center"
+        android:textSize="20.0dip" />
+
+    <TextView
+        android:id="@+id/select_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="86dp"
+        android:layout_y="0dp"
+        android:background="@drawable/icon_yuan"
+        android:gravity="center"
+        android:text="1"
+        android:textColor="#ffffff"
+        android:textSize="20.0sp"
+        android:visibility="gone" />
+
+</AbsoluteLayout>

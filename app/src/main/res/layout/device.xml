@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cans_bg" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="110.0dip" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20.0dip"
+                android:layout_marginRight="20.0dip"
+                android:focusable="true"
+                android:focusableInTouchMode="true" >
+
+                <TableRow android:layout_margin="2.5dip" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2.5dip"
+                        android:layout_weight="1"
+                        android:text="@string/Bg_address"
+                        android:textColor="#000000"
+                        android:textSize="30.0sp" />
+
+                    <EditText
+                        android:id="@+id/bg_address"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2.5dip"
+                        android:layout_weight="2"
+                        android:editable="true"
+                        android:textColor="#000000"
+                        android:textSize="25.0sp" />
+                </TableRow>
+
+                <TableRow android:layout_margin="2.5dip" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2.5dip"
+                        android:layout_weight="1"
+                        android:text="@string/hiscode"
+                        android:textColor="#000000"
+                        android:textSize="30.0sp" />
+
+                    <EditText
+                        android:id="@+id/hiscode"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2.5dip"
+                        android:layout_weight="2"
+                        android:editable="true"
+                        android:textColor="#000000"
+                        android:textSize="25.0sp" />
+                </TableRow>
+
+                <TableRow android:layout_margin="2.5dip" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2.5dip"
+                        android:layout_weight="1"
+                        android:text="@string/device_num"
+                        android:textColor="#000000"
+                        android:textSize="30.0sp" />
+
+                    <EditText
+                        android:id="@+id/device_num"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2.5dip"
+                        android:layout_weight="2"
+                        android:editable="false"
+                        android:textColor="#000000"
+                        android:textSize="25.0sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_margin="2.5dip"
+                    android:visibility="gone" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2.5dip"
+                        android:layout_weight="1"
+                        android:text="@string/down_api"
+                        android:textColor="#000000"
+                        android:textSize="30.0sp" />
+
+                    <EditText
+                        android:id="@+id/down_api"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2.5dip"
+                        android:layout_weight="2"
+                        android:editable="false"
+                        android:textColor="#000000"
+                        android:textSize="25.0sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_margin="2.5dip"
+                    android:visibility="gone" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2.5dip"
+                        android:layout_weight="1"
+                        android:text="@string/up_api"
+                        android:textColor="#000000"
+                        android:textSize="30.0sp" />
+
+                    <EditText
+                        android:id="@+id/up_api"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2.5dip"
+                        android:layout_weight="2"
+                        android:editable="false"
+                        android:textColor="#000000"
+                        android:textSize="25.0sp" />
+                </TableRow>
+
+                <TableRow android:layout_margin="2.5dip" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2.5dip"
+                        android:layout_weight="1"
+                        android:text="@string/order_sum_way"
+                        android:textColor="#000000"
+                        android:textSize="30.0sp" />
+
+                    <EditText
+                        android:id="@+id/order_sum_way"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2.5dip"
+                        android:layout_weight="2"
+                        android:editable="false"
+                        android:textColor="#000000"
+                        android:textSize="25.0sp" />
+                </TableRow>
+
+                <TableRow android:layout_margin="2.5dip" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2.5dip"
+                        android:layout_weight="1"
+                        android:text="@string/order_sum_way"
+                        android:textColor="#000000"
+                        android:textSize="30.0sp" />
+
+                    <EditText
+                        android:id="@+id/yuejie_way"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2.5dip"
+                        android:layout_weight="2"
+                        android:editable="false"
+                        android:textColor="#000000"
+                        android:textSize="25.0sp" />
+                </TableRow>
+
+                <TableRow android:layout_margin="2.5dip" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2.5dip"
+                        android:layout_weight="1"
+                        android:text="@string/general_food"
+                        android:textColor="#000000"
+                        android:textSize="30.0sp" />
+
+                    <EditText
+                        android:id="@+id/general_food"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2.5dip"
+                        android:layout_weight="2"
+                        android:editable="false"
+                        android:textColor="#000000"
+                        android:textSize="25.0sp" />
+                </TableRow>
+
+                <TableRow android:layout_margin="2.5dip" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2.5dip"
+                        android:layout_weight="1"
+                        android:text="@string/mac"
+                        android:textColor="#000000"
+                        android:textSize="30.0sp" />
+
+                    <EditText
+                        android:id="@+id/android_id"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2.5dip"
+                        android:layout_weight="2"
+                        android:editable="false"
+                        android:textColor="#000000"
+                        android:textSize="25.0sp" />
+                </TableRow>
+
+                <TableRow android:layout_margin="2.5dip" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2.5dip"
+                        android:layout_weight="1"
+                        android:text="@string/device_ip"
+                        android:textColor="#000000"
+                        android:textSize="30.0sp" />
+
+                    <EditText
+                        android:id="@+id/device_ip"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2.5dip"
+                        android:layout_weight="2"
+                        android:editable="false"
+                        android:textColor="#000000"
+                        android:textSize="25.0sp" />
+                </TableRow>
+
+                <TableRow android:layout_margin="2.5dip" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2.5dip"
+                        android:layout_weight="1"
+                        android:text="@string/mac_mode"
+                        android:textColor="#000000"
+                        android:textSize="30.0sp" />
+
+                    <EditText
+                        android:id="@+id/device_mode"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2.5dip"
+                        android:layout_weight="2"
+                        android:editable="false"
+                        android:textColor="#000000"
+                        android:textSize="25.0sp" />
+                </TableRow>
+
+                <TableRow android:layout_margin="2.5dip" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2.5dip"
+                        android:layout_weight="1"
+                        android:text="@string/copyright"
+                        android:textColor="#000000"
+                        android:textSize="30.0sp" />
+
+                    <EditText
+                        android:id="@+id/copyright"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2.5dip"
+                        android:layout_weight="2"
+                        android:editable="true"
+                        android:textColor="#000000"
+                        android:textSize="25.0sp" />
+                </TableRow>
+            </TableLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/ok"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/init_config"
+                    android:textColor="#000000"
+                    android:textSize="30.0dip" />
+
+                <Button
+                    android:id="@+id/modify"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="50dp"
+                    android:text="修改"
+                    android:textColor="#000000"
+                    android:textSize="30.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/l_pro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/bg_jindu"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/action_tishi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="25.0sp" >
+        </TextView>
+
+        <ProgressBar
+            android:id="@+id/pro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+
+</RelativeLayout>

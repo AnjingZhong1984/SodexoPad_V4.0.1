@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#ffffff</color>
+    <color name="white_bt">#70ffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="little_gray">#999999</color>
+    <color name="more_black">#333333</color>
+    <color name="little_black">#666666</color>
+    <color name="most_black">#323232</color>
+    <color name="title_blue">#007CC2</color>
+    <color name="corner_index">#cccccc</color>
+    <color name="little_green">#48bd2e</color>
+    <color name="little_blue">#1989c9</color>
+    <color name="index_line">#D7D7D7</color>
+    <color name="bg_grey">#F5f6f5</color>
+    <color name="bg_grey_trans">#7F7F7F</color>
+    <color name="black">#000000</color>
+    <color name="more_blue">#0b1863</color>
+    <color name="less_blue">#c2c9f7</color>
+    <!-- scan -->
+    <color name="result_view">#b0000000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="product_corner">#92d882</color>
+    <color name="order_left_btn_click">#6a4a20</color>
+
+</resources>

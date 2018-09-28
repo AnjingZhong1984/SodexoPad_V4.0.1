@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Sodexo>
+	<HisCode>cn070801</HisCode>
+	<DeviceName>1</DeviceName>
+	<ServerUrl>http://ufsh.patientfeeding.sodexo-cn.com/</ServerUrl>
+	<SyncMoblie>PAD_PC_DB_EXCHANGE/sodex_sync_mobile.aspx</SyncMoblie>
+	<SyncServer>PAD_PC_DB_EXCHANGE/sodex_sync_server.aspx</SyncServer>
+	<StatisticsName>现金</StatisticsName>
+	<YueJie>月结</YueJie>
+	<PotFoodAdvice>小锅菜</PotFoodAdvice>
+	<ModeDistribution>按床位配送</ModeDistribution>
+	<CopyRight>索迪斯是一款方便医院病人订餐的Pad版的app，请尊重版权人的知识产权，违者必究！</CopyRight>
+</Sodexo>

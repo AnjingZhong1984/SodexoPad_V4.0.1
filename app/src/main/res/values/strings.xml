@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, SodexoActivity!</string>
+    <string name="app_name">索迪斯</string>
+    <string name="user_name">用户名：</string>
+    <string name="user_password">密\t\t码：</string>
+    <string name="user_login">登\t录</string>
+    <string name="all_patient">全部：</string>
+    <string name="set_meal">已定餐：</string>
+    <string name="no_meal">未定餐：</string>
+    <string name="order_food_name_title">套餐名称</string>
+    <string name="send_food_time_title">送餐时间</string>
+    <string name="order_food_nums_title">数量</string>
+    <string name="total_price_title">总价</string>
+    <string name="pay_mode_title">支付方式</string>
+    <string name="copyright">版权信息：</string>
+    <string name="bed_id">病床号：</string>
+    <string name="admission_number">住院号：</string>
+    <string name="name">姓\t\t\t名：</string>
+    <string name="sex">性\t\t\t别：</string>
+    <string name="age">年\t\t\t龄：</string>
+    <string name="enter_time">入院时间：</string>
+    <string name="out_time">出院时间：</string>
+    <string name="doctor_advice">医\t\t\t嘱：</string>
+    <string name="allergy">饮食禁忌：</string>
+    <string name="cash">现金：</string>
+    <string name="monthly">月结：</string>
+    <string name="langch_camera">启动相机</string>
+    <string name="scan_img">浏览照片</string>
+    <string name="back_up">备\t份</string>
+    <string name="recovery">恢\t复</string>
+    <string name="make_off_line_data">生成离线同步数据</string>
+    <string name="off_line_sh_data">离线同步数据</string>
+    <string name="select_patient">选择病人</string>
+    <string name="time_format">时间格式:2012 8 22 9:20</string>
+    <string name="deletedate">清除以前订单记录</string>
+    <string name="confirmation_order">点餐确认</string>
+    <string name="noorder">没有订单数据</string>
+    <string name="nomeal">没有可选菜单</string>
+    <string name="nobed">没有数据</string>
+    <string name="device_data">设备参数</string>
+    <string name="Bg_address">后台地址：</string>
+    <string name="down_api">下载接口：</string>
+    <string name="up_api">上传接口：</string>
+    <string name="ok">确定</string>
+    <string name="hiscode">医院代码：</string>
+    <string name="device_num">设备编号：</string>
+    <string name="order_sum_way">订单汇总：</string>
+    <string name="general_food">小锅菜医嘱：</string>
+    <string name="mac">设备 ID：</string>
+    <string name="mac_mode">配送方式：</string>
+    <string name="device_ip">设备 IP：</string>
+    <string name="Stuff">原料：</string>
+    <string name="Flavor">口味：</string>
+    <string name="FitPeople">适合人群：</string>
+    <string name="Technology">制造工艺：</string>
+    <string name="remark">营养描述：</string>
+    <string name="init_config">初始化设备参数</string>
+
+    <string-array name="sexs_arry">
+        <item>男</item>
+        <item>女</item>
+    </string-array>
+
+    <item name="foodid" type="id"></item>
+    <item name="canclick" type="id"></item>
+    <item name="adviceID" type="id"></item>
+
+    <string name="wait_position_data">获取床位信息</string>
+    <string name="wait_enumBase_data">获取枚举信息</string>
+    <string name="wait_foodAdvice_data">获取医嘱信息</string>
+    <string name="wait_foodMenu_data">获取菜单信息</string>
+    <string name="upjson">上传数据</string>
+    <string name="wait_foodAdviceFood_data">获取食品医嘱信息</string>
+    <string name="wait_patient_data">获取病员信息</string>
+    <string name="wait_patientFoodAdvice_data">获取病员医嘱信息</string>
+
+</resources>

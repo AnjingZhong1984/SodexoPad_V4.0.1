@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_sz" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/back_up"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20.0dip"
+            android:background="@drawable/setting_btn_bg"
+            android:text="@string/back_up"
+            android:textSize="30.0dip" />
+
+        <Button
+            android:id="@+id/recovery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20.0dip"
+            android:background="@drawable/setting_btn_bg"
+            android:text="@string/recovery"
+            android:textSize="30.0dip" />
+
+        <Button
+            android:id="@+id/make_off_line_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20.0dip"
+            android:background="@drawable/setting_btn_bg"
+            android:text="@string/make_off_line_data"
+            android:textSize="30.0dip" />
+
+        <Button
+            android:id="@+id/off_line_sh_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20.0dip"
+            android:background="@drawable/setting_btn_bg"
+            android:text="@string/off_line_sh_data"
+            android:textSize="30.0dip" />
+
+        <Button
+            android:id="@+id/device_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20.0dip"
+            android:background="@drawable/setting_btn_bg"
+            android:text="@string/device_data"
+            android:textSize="30.0dip" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/l_pro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/bg_jindu"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/action_tishi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="25.0sp" >
+        </TextView>
+
+        <ProgressBar
+            android:id="@+id/pro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+
+</RelativeLayout>
